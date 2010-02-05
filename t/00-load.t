@@ -3,8 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-    use_ok( 'WWW::Shorten::Urlchen' ) || print "Bail out!
-";
+    use_ok( 'WWW::Shorten::URLchen' ) || print "Bail out!\n";
 }
 
-diag( "Testing WWW::Shorten::Urlchen $WWW::Shorten::Urlchen::VERSION, Perl $], $^X" );
+diag( "Testing WWW::Shorten::URLchen $WWW::Shorten::URLchen::VERSION, Perl $], $^X" );
