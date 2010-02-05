@@ -11,6 +11,9 @@ my $builder = Module::Build->new(
     build_requires => {
         'Test::More' => 0,
     },
+    requires => {
+        'WWW::Shorten' => '3.00',
+    },
     add_to_cleanup      => [ 'WWW-Shorten-URLchen-*' ],
     create_makefile_pl => 'traditional',
 );
