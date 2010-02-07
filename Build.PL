@@ -15,7 +15,11 @@ my $builder = Module::Build->new(
         'WWW::Shorten' => '3.00',
     },
     add_to_cleanup      => [ 'WWW-Shorten-URLchen-*' ],
-    create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources => {
+            repository => 'http://github.com/datamuc/WWW-Shorten-URLchen',
+        },
+    },
 );
 
 $builder->create_build_script();
