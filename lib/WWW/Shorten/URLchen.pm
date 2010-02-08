@@ -4,8 +4,7 @@ use warnings;
 
 use base qw( WWW::Shorten::generic Exporter );
 our @EXPORT = qw( makeashorterlink makealongerlink );
-use version;
-our $VERSION = qv('0.0.2');
+our $VERSION = '0.0.2';
 
 use Carp;
 
