@@ -5,7 +5,7 @@ use warnings;
 use base qw( WWW::Shorten::generic Exporter );
 our @EXPORT = qw( makeashorterlink makealongerlink );
 use version;
-our $VERSION = qv('0.0.1');
+our $VERSION = qv('0.0.2');
 
 use Carp;
 
@@ -16,7 +16,7 @@ sub makeashorterlink ($) {
     my $resp = $ua->post($service_url, [
 	url => $url,
 	source => "PerlAPI-$VERSION",
-	]);
+    ]);
     return undef unless $resp->is_redirect;
     return $resp->header('X-Location');
 }
@@ -42,7 +42,7 @@ __END__
 
 =head1 NAME
 
-WWW::Shorten::URLchen - Perl interface to tinyurl.com
+WWW::Shorten::URLchen - Perl interface to URLchen.de
 
 =head1 SYNOPSIS
 
