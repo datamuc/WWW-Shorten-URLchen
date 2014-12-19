@@ -13,6 +13,11 @@ my $builder = Module::Build->new(
     },
     requires => {
         'WWW::Shorten' => '3.00',
+        'strict'       => 0,
+        'warnings'     => 0,
+        'Carp'         => 0,
+        'base'         => 0,
+        'Exporter'     => 0,
     },
     add_to_cleanup      => [ 'WWW-Shorten-URLchen-*' ],
     meta_merge => {

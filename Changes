@@ -1,6 +1,7 @@
 Revision history for Perl module WWW::Shorten::URLchen
 
 0.0.3 2014-12-?? DATA
+    - Added all prereqs to Build.PL
     - Reformatted this file as per CPAN::Changes::Spec, and added missing release.
 
 0.0.2 2010-02-08 DATA
