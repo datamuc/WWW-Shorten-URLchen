@@ -18,6 +18,7 @@ my $builder = Module::Build->new(
         'Carp'         => 0,
         'base'         => 0,
         'Exporter'     => 0,
+        'perl'         => '5.006',
     },
     add_to_cleanup      => [ 'WWW-Shorten-URLchen-*' ],
     meta_merge => {

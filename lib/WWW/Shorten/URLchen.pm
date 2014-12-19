@@ -1,4 +1,6 @@
 package WWW::Shorten::URLchen;
+
+use 5.006;
 use strict;
 use warnings;
 
@@ -77,6 +79,10 @@ makeashorterlink, makealongerlink
 =head1 SUPPORT, LICENCE, THANKS and SUCH
 
 See the main L<WWW::Shorten> docs.
+
+=head1 REPOSITORY
+
+L<https://github.com/datamuc/WWW-Shorten-URLchen>
 
 =head1 AUTHOR
 
