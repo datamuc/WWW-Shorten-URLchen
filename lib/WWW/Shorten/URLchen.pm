@@ -76,9 +76,16 @@ If anything goes wrong, then either function will return C<undef>.
 
 makeashorterlink, makealongerlink
 
-=head1 SUPPORT, LICENCE, THANKS and SUCH
+=head1 SUPPORT, THANKS and SUCH
 
 See the main L<WWW::Shorten> docs.
+
+=head1 LICENSE
+
+This software is copyright (c) 2010 by Danijel Tasov
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =head1 REPOSITORY
 
