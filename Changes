@@ -1,4 +1,12 @@
-Revision history for WWW-Shorten-Urlchen
+Revision history for Perl module WWW::Shorten::URLchen
 
-0.0.1    2010-02-05
-         First version, released on an unsuspecting world.
+0.0.3 2014-12-?? DATA
+    - Reformatted this file as per CPAN::Changes::Spec, and added missing release.
+
+0.0.2 2010-02-08 DATA
+    - remove dependency on version.pm
+    - fixed docs
+
+0.0.1 2010-02-07 DATA
+    - First version, released on an unsuspecting world.
+
