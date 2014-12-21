@@ -1,6 +1,6 @@
 Revision history for Perl module WWW::Shorten::URLchen
 
-0.0.3 2014-12-?? DATA
+0.0.3 2014-12-20 DATA
     - Specified min perl version 5.006, in code and metadata
     - Added all prereqs to Build.PL
     - Added a separate LICENSE section to doc
